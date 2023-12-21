@@ -1,0 +1,17 @@
+{
+    "name": "api_gateway",
+    "version": "1.0.0",
+    "description": "Create a GraphQL API Gateway with Apollo Server to 3 microservices",
+    "main": "api_server.js",
+    "scripts": {
+      "start": "node api_server.js"
+    },
+    "keywords": [],
+    "author": "Satoru-sama",
+    "license": "ISC",
+    "dependencies": {
+      "apollo-server": "^3.12.1",
+      "graphql": "^16.8.1",
+      "axios": "^0.26.0" 
+    }
+  }
